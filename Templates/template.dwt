@@ -18,9 +18,9 @@
   -->
   
   <!-- Included CSS Files (Compressed) -->
-<link rel="stylesheet" href="../stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="../stylesheets/foundation.min.css">
   <link rel="stylesheet" href="../stylesheets/app.css">
-
+  <link rel="stylesheet" href="../stylesheets/twittermarquee.css" media="screen">
   <script src="../javascripts/modernizr.foundation.js"></script>
 <!--<meta name="google-translate-customization" content="b8e07f286b1e3e0c-bc5952370c8eece9-g42b5a8c4f158cb96-11"></meta>-->
 <!-- TemplateBeginEditable name="head" -->
@@ -40,7 +40,8 @@
 <body>
   
   <!-- Header and Nav -->
-  <!-- TemplateBeginEditable name="type" --><div class="sub-wrapper">
+  <!-- TemplateBeginEditable name="type" -->
+<div class="sub-wrapper">
   <!-- TemplateEndEditable -->
 <div class="translate">
   <div class="row">
@@ -49,6 +50,23 @@
     </div>
   </div>
 </div>
+<!-- TWITTER MARQUEE -->
+<div id="header">
+  <div id="trends">
+    
+    <div class="inner">
+        <ul class="trendscontent">
+
+          <li>
+            <a href="news.html" class="search_link" name="Shirley Sherrod" rel="nofollow">Execute A Score wins the 2013 Pinto World Champion Stallion, and six APHA Grand Champion Stallion titles.</a>
+          </li>
+
+        </ul>
+    </div> <!--// .inner -->
+    <span class="fade fade-left">&nbsp;</span><span class="fade fade-right">&nbsp;</span>
+  </div> <!--// #trends -->
+</div> <!--// #header twittermarquee -->
+
 
   <div class="row header">
     <div class="eight columns">
@@ -161,6 +179,22 @@ function googleTranslateElementInit() {
 }
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- **** BEGIN TwitMarqee Javascript -->
+  <script type="text/javascript" src="javascripts/twitmarquee.js"></script>
+
+  <script type="text/javascript">
+    //<![CDATA[
+    var page={};
+
+    $(function() {
+      new FrontPage().init();
+    });
+
+    //]]>
+  </script>
+  <!-- **** END TwitMarqee Javascript -->
+
   <!-- TemplateBeginEditable name="js" -->
   <!-- TemplateEndEditable -->
 </body>
